@@ -1,3 +1,13 @@
+# @discere-os/libsndfile.wasm
+
+WebAssembly port of libsndfile - Audio file I/O library with comprehensive format support including WAV, FLAC, OGG, and professional audio formats with SIMD optimization.
+
+[![CI/CD](https://github.com/discere-os/discere-nucleus/actions/workflows/libsndfile-wasm-ci.yml/badge.svg)](https://github.com/discere-os/discere-nucleus/actions)
+[![JSR](https://jsr.io/badges/@discere-os/libsndfile.wasm)](https://jsr.io/@discere-os/libsndfile.wasm)
+[![npm version](https://badge.fury.io/js/@discere-os%2Flibsndfile.wasm.svg)](https://badge.fury.io/js/@discere-os%2Flibsndfile.wasm)
+[![License](https://img.shields.io/badge/License-LGPL--2.1-blue.svg)](COPYING)
+[![Status](https://img.shields.io/badge/status-alpha-orange.svg)](https://github.com/discere-os/discere-nucleus)
+
 # libsndfile
 
 ![C/C++ CI](https://github.com/libsndfile/libsndfile/workflows/C/C++%20CI/badge.svg)
@@ -190,7 +200,7 @@ First you need to add `FindOgg.cmake`, `FindVorbis.cmake`, `FindFLAC.cmake` and
 `cmake`) and add it to `CMAKE_MODULE_PATH`:
 
     project(SomeApplication)
-    
+
     list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 Now you can search `libsndfile` library from your `CMakeLists.txt`
@@ -309,3 +319,21 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 [brew]: http://brew.sh/
 [github]: http://libsndfile.github.io/libsndfile/
 [BuildingForAndroid]: https://github.com/libsndfile/libsndfile/blob/master/Building-for-Android.md
+
+
+## 💖 Support This Work
+
+This WebAssembly port is part of a larger effort to bring professional desktop applications to browsers with native performance.
+
+**👨‍💻 About the Maintainer**: [Isaac Johnston (@superstructor)](https://github.com/superstructor) - Building foundational browser-native computing infrastructure through systematic C/C++ to WebAssembly porting.
+
+**📊 Impact**: 70+ open source WASM libraries enabling professional applications like Blender, GIMP, and scientific computing tools to run natively in browsers.
+
+**🚀 Your Support Enables**:
+- Continued maintenance and updates
+- Performance optimizations
+- New library ports and integrations
+- Documentation and tutorials
+- Cross-browser compatibility testing
+
+**[💖 Sponsor this work](https://github.com/sponsors/superstructor)** to help build the future of browser-native computing.
